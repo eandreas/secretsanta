@@ -7,24 +7,24 @@ entries:
 - folders:
   - folderitems:
     - output: web,pdf
-      title: Export to modules
-      url: /export.html
+      title: Overview
+      url: /
     - output: web,pdf
-      title: Convert to html
-      url: /export2html.html
+      title: SecretSanta
+      url: core.html
     - output: web,pdf
-      title: Show doc
-      url: /showdoc.html
+      title: Do the lottery
+      url: lottery.html
     - output: web,pdf
-      title: Test functions
-      url: /test.html
+      title: Replacements
+      url: replace.html
     - output: web,pdf
-      title: Core functions
-      url: /core.html
+      title: Compose and send emails
+      url: email.html
     - output: web,pdf
-      title: Command line functions
-      url: /cli.html
+      title: Title
+      url: constants.html
     output: web
-    title: Notebook
+    title: secretsanta
   output: web
   title: Sidebar
