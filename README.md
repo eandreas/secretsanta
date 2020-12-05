@@ -1,5 +1,5 @@
-# Project name here
-> Summary description here.
+# Secret Santa
+> This module allows to send e-mails in the name of Secret Santa using an SMTP email server.
 
 
 This file will become your README and also the index of your documentation.
