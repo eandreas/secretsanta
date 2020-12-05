@@ -21,9 +21,6 @@ entries:
     - output: web,pdf
       title: Compose and send emails
       url: email.html
-    - output: web,pdf
-      title: Title
-      url: constants.html
     output: web
     title: secretsanta
   output: web

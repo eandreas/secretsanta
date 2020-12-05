@@ -4,7 +4,6 @@
     "SecretSanta": "core.html",
     "Do the lottery": "lottery.html",
     "Replacements": "replace.html",
-    "Compose and send emails": "email.html",
-    "Title": "constants.html"
+    "Compose and send emails": "email.html"
   }
 }

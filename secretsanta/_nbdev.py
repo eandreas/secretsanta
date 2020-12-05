@@ -9,18 +9,12 @@ index = {"SecretSanta": "00_core.ipynb",
          "replace_vars": "02_replace.ipynb",
          "create_html_message": "03_email.ipynb",
          "add_attachmet": "03_email.ipynb",
-         "send_smtp_email": "03_email.ipynb",
-         "CONFIG_FN": "04_constants.ipynb",
-         "PARTICIPANTS_FN": "04_constants.ipynb",
-         "REPLACEMENTS_FN": "04_constants.ipynb",
-         "HTML_TPL_BASE_FN": "04_constants.ipynb",
-         "RULES_FN": "04_constants.ipynb"}
+         "send_smtp_email": "03_email.ipynb"}
 
 modules = ["core.py",
            "lottery.py",
            "replace.py",
-           "email.py",
-           "constants.py"]
+           "email.py"]
 
 doc_url = "https://eandreas.github.io/secretsanta/"
 
