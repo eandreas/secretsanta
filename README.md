@@ -29,16 +29,20 @@ lottery = SecretSanta(sender_name, sender_email, subject, input_path, True)
     Marta Muster (de, f): marta.muster@gmail.com
     -------------
     Rule [must] failed: John --> Marta
-    Rule [not] failed: Hans --> Marta
+    Rule [must] failed: John --> Marta
+    Rule [not] failed: Marta --> Hans
     Rule [not] failed: Jane --> John
     Rule [not] failed: Marta --> Hans
+    Rule [must] failed: John --> Marta
     Rule [not] failed: Jane --> John
-    Rule [not] failed: Marta --> Hans
+    Rule [not] failed: Hans --> Marta
     Rule [must] failed: John --> Marta
-    Rule [not] failed: Marta --> Hans
-    Rule [must] failed: John --> Marta
+    Rule [not] failed: Jane --> John
+    Rule [not] failed: Hans --> Marta
     Rule [must] failed: John --> Marta
     Rule [not] failed: Hans --> Marta
+    Rule [must] failed: John --> Marta
+    Rule [not] failed: Marta --> Hans
 
 
 ```python
@@ -49,8 +53,8 @@ lottery.print_assignments()
     ----------------------------
     John --> Marta
     Jane --> Hans
-    Hans --> John
-    Marta --> Jane
+    Hans --> Jane
+    Marta --> John
     ----------------------------
 
 
@@ -199,7 +203,7 @@ IPython.display.HTML(data = html)
 
 <body>
     <div class="main">
-        <img src="https://github.com/eandreas/xmas/raw/master/input_data/santa.jpg" alt="Santa Claus Image" width="auto">
+        <img src="https://github.com/eandreas/secretsanta/raw/master/input_data/santa.jpg" alt="Santa Claus Image" width="auto">
         <h1>Xmas Lottery 2020</h1>
         <p>Dear Jane</p>
         <p>Soon it will be Christmas again. Unfortunately, I am far behind with my preparations, so that I am dependent
