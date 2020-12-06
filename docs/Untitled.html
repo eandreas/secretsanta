@@ -1,13 +1,13 @@
 ---
 
-title: Do the lottery
+title: Constants
 
 
 keywords: fastai
 sidebar: home_sidebar
 
-summary: "The module `lottery` does a random assignement."
-description: "The module `lottery` does a random assignement."
+summary: "Some constants needed within this module."
+description: "Some constants needed within this module."
 nb_path: "Untitled.ipynb"
 ---
 <!--
@@ -32,136 +32,6 @@ nb_path: "Untitled.ipynb"
     {% raw %}
     
 <div class="cell border-box-sizing code_cell rendered">
-
-</div>
-    {% endraw %}
-
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-
-<div class="output_markdown rendered_html output_subarea ">
-<h4 id="has_self_assignments" class="doc_header"><code>has_self_assignments</code><a href="https://github.com/eandreas/secretsanta/tree/master/secretsanta/core/lottery.py#L11" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>has_self_assignments</code>(<strong><code>assignments</code></strong>)</p>
-</blockquote>
-<p>Returns <code>True</code> in case the list of touples <code>assignments</code> does not contain a touple consisting of the same values.</p>
-
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-    {% endraw %}
-
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-
-</div>
-    {% endraw %}
-
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-
-<div class="output_markdown rendered_html output_subarea ">
-<h4 id="get_assignemnts" class="doc_header"><code>get_assignemnts</code><a href="https://github.com/eandreas/secretsanta/tree/master/secretsanta/core/lottery.py#L19" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>get_assignemnts</code>(<strong><code>li</code></strong>, <strong><code>allow_sa</code></strong>=<em><code>False</code></em>)</p>
-</blockquote>
-<p>Assigne each item of a list <code>li</code> an item of the same list and return these touples.
-In case of <code>allow_sa=False</code> self assignments are not allowed.</p>
-
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-    {% endraw %}
-
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-
-</div>
-    {% endraw %}
-
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">l</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">]</span>
-<span class="n">a</span> <span class="o">=</span> <span class="n">get_assignemnts</span><span class="p">(</span><span class="n">l</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[(0, 5), (1, 2), (2, 8), (3, 6), (4, 7), (5, 9), (6, 1), (7, 0), (8, 4), (9, 3)]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-    {% endraw %}
-
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="n">get_assignemnts</span><span class="p">(</span><span class="n">l</span><span class="p">,</span> <span class="n">allow_sa</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[(0, 3), (1, 4), (2, 1), (3, 2), (4, 6), (5, 5), (6, 9), (7, 0), (8, 7), (9, 8)]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
 
 </div>
     {% endraw %}
