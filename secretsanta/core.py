@@ -6,7 +6,6 @@ __all__ = ['SecretSanta']
 import pandas as pd
 from pathlib2 import Path
 from configparser import ConfigParser
-from .constants import *
 from .lottery import *
 from .replace import *
 from .email import *
