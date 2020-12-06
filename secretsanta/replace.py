@@ -12,7 +12,7 @@ def get_variables(s, key = '@@'):
 
 # Cell
 def replace_vars(s, r, key = '@@'):
-    '''A dictionary `r` is used to replace the dictionary keys(surrounded by `key`)
+    '''A dictionary `r` is used to replace the dictionary keys (surrounded by `key`)
     by the dictionary values.'''
     for k, v in r.items():
         s = s.replace(key + k + key, v)
