@@ -2,7 +2,7 @@
   "secretsanta": {
     "Overview": "/",
     "SecretSanta": "core.html",
-    "Do the lottery": "lottery.html",
+    "Lottery": "lottery.html",
     "Replacements": "replace.html",
     "Compose and send emails": "email.html"
   }

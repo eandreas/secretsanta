@@ -13,7 +13,7 @@ entries:
       title: SecretSanta
       url: core.html
     - output: web,pdf
-      title: Do the lottery
+      title: Lottery
       url: lottery.html
     - output: web,pdf
       title: Replacements
