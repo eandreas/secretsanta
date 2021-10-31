@@ -10,9 +10,9 @@ This file will become your README and also the index of your documentation.
 
 ## How to use
 
-Fill me in please! Don't forget code examples:
+Please folllow the example below to create and send e-mails from Secret Santa.
 
-```python
+```
 sender_name = 'Santa Claus'
 sender_email = 'santa@claus.com'
 subject = 'Christmas Lottery'
@@ -45,7 +45,7 @@ lottery = SecretSanta(sender_name, sender_email, subject, input_path, True)
     Rule [not] failed: Marta --> Hans
 
 
-```python
+```
 lottery.print_assignments()
 ```
 
@@ -60,7 +60,7 @@ lottery.print_assignments()
 
 ## Send Mail from disk
 
-```python
+```
 from email.parser import BytesParser
 from email import policy
 
@@ -78,7 +78,7 @@ with open(fn_email, 'rb') as fp:
 #send_smtp_email('host', port, user, pw, email)
 ```
 
-```python
+```
 print('To:', email['to'])
 print('From:', email['from'])
 print('Subject:', email['subject'])
@@ -89,7 +89,7 @@ print('Subject:', email['subject'])
     Subject: Christmas Lottery
 
 
-```python
+```
 richest = email.get_body()
 body = richest.get_body(preferencelist=('html'))
 html = body.get_content()
@@ -133,7 +133,7 @@ print(html)
     
 
 
-```python
+```
 import IPython
 
 html = html.replace('cid:santa.jpg', 'input_data/santa.jpg')
@@ -177,7 +177,7 @@ print(html)
     
 
 
-```python
+```
 IPython.display.HTML(data = html)
 ```
 
