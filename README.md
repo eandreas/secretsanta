@@ -13,6 +13,11 @@ This file will become your README and also the index of your documentation.
 Please folllow the example below to create and send e-mails from Secret Santa.
 
 ```
+from secretsanta.core import *
+from pathlib2 import Path
+```
+
+```
 sender_name = 'Santa Claus'
 sender_email = 'santa@claus.com'
 subject = 'Christmas Lottery'
@@ -30,19 +35,11 @@ lottery = SecretSanta(sender_name, sender_email, subject, input_path, True)
     -------------
     Rule [must] failed: John --> Marta
     Rule [must] failed: John --> Marta
-    Rule [not] failed: Marta --> Hans
-    Rule [not] failed: Jane --> John
-    Rule [not] failed: Marta --> Hans
-    Rule [must] failed: John --> Marta
-    Rule [not] failed: Jane --> John
     Rule [not] failed: Hans --> Marta
     Rule [must] failed: John --> Marta
     Rule [not] failed: Jane --> John
-    Rule [not] failed: Hans --> Marta
-    Rule [must] failed: John --> Marta
-    Rule [not] failed: Hans --> Marta
-    Rule [must] failed: John --> Marta
     Rule [not] failed: Marta --> Hans
+    Rule [not] failed: Hans --> Marta
 
 
 ```

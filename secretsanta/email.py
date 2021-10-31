@@ -6,7 +6,7 @@ __all__ = ['create_html_message', 'add_attachmet', 'send_smtp_email']
 import smtplib
 from email.message import EmailMessage
 import mimetypes
-from pathlib import Path
+from pathlib2 import Path
 import re
 
 # Cell
