@@ -185,6 +185,17 @@ class SecretSanta:
             print(f'{a[0]} --> {a[1]}')
         print('----------------------------')
 
+    def print_ladina_andreas_assignments(self):
+        '''
+        Print all participants together with the currently assigned presentees.
+        '''
+        print('Participants --> Presemtees:')
+        print('----------------------------')
+        for a in self.assignments:
+            if ((a[0] == 'Andreas') or (a[0] == 'Ladina')):
+                print(f'{a[0]} --> {a[1]}')
+        print('----------------------------')
+
     def send_emails(self, sleep_sec = 5):
         '''
         Send the Secret Santa email messages to its recipients.
